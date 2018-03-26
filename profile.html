@@ -13,7 +13,7 @@
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,60 +21,61 @@
     <!--Main Navigation-->
     <header>
 
-      <!-- Navbar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
-          <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+            <div class="container">
 
-              <!-- Brand -->
-              <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-                  <strong class="red-text">T-Helper</strong>
-              </a>
+                <!-- Brand -->
+                <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+                    <strong class="blue-text">T-Helper</strong>
+                </a>
 
-              <!-- Collapse -->
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                  aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-              <!-- Links -->
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                  <!-- Left -->
-                  <ul class="navbar-nav col-md-10">
-                      <li class="nav-item active">
-                          <a class="nav-link waves-effect mdl-typography--text-uppercase ml-4" href="home.html">Beranda
-                              <span class="sr-only">(current)</span>
-                          </a>
+                    <!-- Left -->
+                    <ul class="navbar-nav col-md-10">
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect mdl-typography--text-uppercase ml-4" href="home.html">Beranda
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect mdl-typography--text-uppercase ml-4" href="tanya.html">Tanya</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect ml-4" href="https://mdbootstrap.com/getting-started/">Artikel Anda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect ml-4" href="https://mdbootstrap.com/bootstrap-tutorial/">Bantuan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect ml-4" href="https://mdbootstrap.com/bootstrap-tutorial/">Inbox</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect ml-4" href="https://mdbootstrap.com/bootstrap-tutorial/">Notification</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav col-md-2">
+                      <li>
+                        <li class="nav-item active">
+                          <a clas="nav-link waves-effect">
+                          <i class="fa fa-user mr-2" style="font-size:30px;"></i>
+                          Hi, Guest! </a>
+                        </li>
                       </li>
-                      <li class="nav-item">
-                          <a class="nav-link waves-effect mdl-typography--text-uppercase ml-4" href="tanya.html">Tanya</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link waves-effect ml-4" href="article.html">Artikel Anda</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link waves-effect ml-4" href="https://mdbootstrap.com/bootstrap-tutorial/">Bantuan</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link waves-effect ml-4" href="inbox.html">Inbox</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link waves-effect ml-4" href="notification.html">Notification</a>
-                      </li>
-                  </ul>
-                  <ul class="navbar-nav col-md-2">
-                    <li>
-                      <li class="nav-item">
-                        <a clas="nav-link waves-effect">
-                        <i class="fa fa-user mr-2" style="font-size:30px;"></i>
-                        Hi, Guest! </a>
-                      </li>
-                    </li>
-                  </ul>
-              </div>
+                    </ul>
+                </div>
 
-          </div>
-      </nav>
+            </div>
+        </nav>
+        <!-- Navbar -->
 
     </header>
     <!--Main Navigation-->
@@ -84,7 +85,7 @@
         <div class="container">
 
             <!--Section: Jumbotron-->
-            <section class="card wow fadeIn mb-5" style="background-image: url(https://themetrust.com/wp-content/uploads/2016/01/search.jpg);">
+            <section class="card wow fadeIn mb-5" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
 
                 <!-- Content -->
                 <div class="card-body text-white text-center py-5 px-5 my-5">
@@ -104,7 +105,7 @@
                 <h2> Recommended articles for you </h1>
                 <hr>
 
-                <h5 class="mb-5"> Your Question : Ada yang bisa ajarin MDBootstrap? </h3>
+                <h5 class="mb-5"> Question : Ada yang bisa ajarin MDBootstrap? </h3>
                 <!--Grid row-->
                 <div class="row mb-4 wow fadeIn">
 
@@ -128,7 +129,7 @@
                                 <h4 class="card-title">MDB with Angular</h4>
                                 <!--Text-->
                                 <p class="card-text">Built with Angular 5, Bootstrap 4 and TypeScript. CLI version available. </p>
-                                <a href="https://mdbootstrap.com/angular/" target="_blank" class="btn btn-danger btn-md">Free download
+                                <a href="https://mdbootstrap.com/angular/" target="_blank" class="btn btn-primary btn-md">Free download
                                     <i class="fa fa-download ml-2"></i>
                                 </a>
                             </div>
@@ -159,7 +160,7 @@
                                 <h4 class="card-title">MDB with React</h4>
                                 <!--Text-->
                                 <p class="card-text">Based on the latest Bootstrap 4 and React 16. </p>
-                                <a href="https://mdbootstrap.com/angular/" target="_blank" class="btn btn-danger btn-md">Free download
+                                <a href="https://mdbootstrap.com/react/" target="_blank" class="btn btn-primary btn-md">Free download
                                     <i class="fa fa-download ml-2"></i>
                                 </a>
                             </div>
@@ -190,7 +191,7 @@
                                 <h4 class="card-title">MDB with Vue</h4>
                                 <!--Text-->
                                 <p class="card-text">Based on the latest Bootstrap 4 and Vue 2.5.7. </p>
-                                <a href="https://mdbootstrap.com/angular/" target="_blank" class="btn btn-danger btn-md">Free download
+                                <a href="https://mdbootstrap.com/vue/" target="_blank" class="btn btn-primary btn-md">Free download
                                     <i class="fa fa-download ml-2"></i>
                                 </a>
                             </div>
@@ -205,7 +206,7 @@
                 <!--Grid row-->
                 <!--Pagination-->
                 <nav class="d-flex justify-content-center wow fadeIn">
-                    <ul class="pagination pg-red">
+                    <ul class="pagination pg-blue">
 
                         <!--Arrow left-->
                         <li class="page-item disabled">
@@ -250,19 +251,12 @@
               <h2> Top Feed </h1>
               <hr>
               <div class="list-group">
-                <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <div>
-                      <div class="profile-header-container">
-                  		    <div class="profile-header-img">
-                              <img class="rounded-circle" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" />
-                              <!-- badge -->
-                              <div class="rank-label-container">
-                                  <span class="label label-default rank-label">User 1, from X</span>
-                              </div>
-                          </div>
-                      </div>
-                      <span class="badge badge-danger badge-pill">14</span>
+                      <i class="fa fa-user mr-2" style="font-size:30px;"></i>
+                      <p> User1, From ITB </p>
+                      <span class="badge badge-primary badge-pill">14</span>
                     </div>
                     <h5 class="mb-1">Question 1</h5>
                     <small>3 days ago</small>
@@ -270,20 +264,13 @@
                   <div class="mt-2 mb-1 text-right">
                     <button type="button" class="btn btn-success"> Coba Jawab </button>
                   </div>
-                </div>
-                <div class="list-group-item list-group-item-action flex-column align-items-start">
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <div>
-                      <div class="profile-header-container">
-                  		    <div class="profile-header-img">
-                              <img class="rounded-circle" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" />
-                              <!-- badge -->
-                              <div class="rank-label-container">
-                                  <span class="label label-default rank-label">User 1, from X</span>
-                              </div>
-                          </div>
-                      </div>
-                      <span class="badge badge-danger badge-pill">14</span>
+                      <i class="fa fa-user mr-2" style="font-size:30px;"></i>
+                      <p> User1, From ITB </p>
+                      <span class="badge badge-primary badge-pill">14</span>
                     </div>
                     <h5 class="mb-1">Question 1</h5>
                     <small>3 days ago</small>
@@ -291,20 +278,13 @@
                   <div class="mt-2 mb-1 text-right">
                     <button type="button" class="btn btn-success"> Coba Jawab </button>
                   </div>
-                </div>
-                <div class="list-group-item list-group-item-action flex-column align-items-start">
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <div>
-                      <div class="profile-header-container">
-                  		    <div class="profile-header-img">
-                              <img class="rounded-circle" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" />
-                              <!-- badge -->
-                              <div class="rank-label-container">
-                                  <span class="label label-default rank-label">User 1, from X</span>
-                              </div>
-                          </div>
-                      </div>
-                      <span class="badge badge-danger badge-pill">14</span>
+                      <i class="fa fa-user mr-2" style="font-size:30px;"></i>
+                      <p> User1, From ITB </p>
+                      <span class="badge badge-primary badge-pill">14</span>
                     </div>
                     <h5 class="mb-1">Question 1</h5>
                     <small>3 days ago</small>
@@ -312,9 +292,9 @@
                   <div class="mt-2 mb-1 text-right">
                     <button type="button" class="btn btn-success"> Coba Jawab </button>
                   </div>
-                </div>
+                </a>
               </div>
-              <a href="tanya.html" class="btn btn-danger mt-5"> Tampilkan Semua </a>
+              <button type="button" class="btn btn-default"> Tampilkan Semua </button>
             </section>
 
         </div>
